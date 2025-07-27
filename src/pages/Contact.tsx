@@ -44,14 +44,14 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      detail: "+1 (555) 123-4567",
-      description: "Mon-Fri from 8am to 8pm"
+      detail: "+92 91 123-4567",
+      description: "Mon-Fri from 9am to 6pm PKT"
     },
     {
       icon: MapPin,
       title: "Office",
-      detail: "123 Business Ave, Suite 100",
-      description: "New York, NY 10001"
+      detail: "Peshawar, Pakistan",
+      description: "Khyber Pakhtunkhwa"
     },
     {
       icon: Clock,

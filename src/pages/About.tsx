@@ -126,12 +126,24 @@ const About = () => {
             Our team combines years of experience in technology, customer service, and the trades industry. 
             We understand both sides of the marketplace and work tirelessly to create the best experience for everyone.
           </p>
+          
+          {/* Project Lead */}
+          <Card className="gradient-card border-border shadow-blue-lg mb-8 max-w-md mx-auto">
+            <CardContent className="pt-6 text-center">
+              <h3 className="text-xl font-bold text-foreground mb-2">Umar Farooq</h3>
+              <p className="text-primary font-semibold mb-2">Project Lead</p>
+              <p className="text-muted-foreground">
+                Leading the vision and development of Connect Pro to revolutionize how people connect with professional services.
+              </p>
+            </CardContent>
+          </Card>
+
           <div className="bg-secondary/50 rounded-lg p-8">
             <p className="text-lg font-medium text-foreground mb-4">
               "We believe everyone deserves access to reliable, professional services. That's why we've built 
               Connect Pro to be more than just a platform—it's a community built on trust."
             </p>
-            <p className="text-muted-foreground font-medium">— The Connect Pro Team</p>
+            <p className="text-muted-foreground font-medium">— Umar Farooq, Project Lead</p>
           </div>
         </div>
       </section>
