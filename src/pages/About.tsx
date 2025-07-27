@@ -127,16 +127,28 @@ const About = () => {
             We understand both sides of the marketplace and work tirelessly to create the best experience for everyone.
           </p>
           
-          {/* Project Lead */}
-          <Card className="gradient-card border-border shadow-blue-lg mb-8 max-w-md mx-auto">
-            <CardContent className="pt-6 text-center">
-              <h3 className="text-xl font-bold text-foreground mb-2">Umar Farooq</h3>
-              <p className="text-primary font-semibold mb-2">Project Lead</p>
-              <p className="text-muted-foreground">
-                Leading the vision and development of Connect Pro to revolutionize how people connect with professional services.
-              </p>
-            </CardContent>
-          </Card>
+          {/* Team Members */}
+          <div className="grid md:grid-cols-2 gap-6 mb-8 max-w-2xl mx-auto">
+            <Card className="gradient-card border-border shadow-blue-lg">
+              <CardContent className="pt-6 text-center">
+                <h3 className="text-xl font-bold text-foreground mb-2">Umar Farooq</h3>
+                <p className="text-primary font-semibold mb-2">Project Lead</p>
+                <p className="text-muted-foreground">
+                  Leading the vision and development of Connect Pro to revolutionize how people connect with professional services.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="gradient-card border-border shadow-blue-lg">
+              <CardContent className="pt-6 text-center">
+                <h3 className="text-xl font-bold text-foreground mb-2">Sir Salauddin</h3>
+                <p className="text-primary font-semibold mb-2">Project Supervisor</p>
+                <p className="text-muted-foreground">
+                  Providing guidance and oversight to ensure Connect Pro meets the highest standards of quality and innovation.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
 
           <div className="bg-secondary/50 rounded-lg p-8">
             <p className="text-lg font-medium text-foreground mb-4">
