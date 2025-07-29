@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight, Users, Shield, Star, Wrench, Home as HomeIcon, Zap } from "lucide-react";
+import StaticNavbar from "@/components/StaticNavbar";
 
 const Home = () => {
   const services = [
@@ -18,27 +19,7 @@ const Home = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Navigation */}
-      <nav className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            <div className="flex items-center">
-              <h1 className="text-xl font-bold text-primary">Connect Pro</h1>
-            </div>
-            <div className="hidden md:flex items-center space-x-8">
-              <Link to="/about" className="text-foreground hover:text-primary transition-colors">About</Link>
-              <Link to="/services" className="text-foreground hover:text-primary transition-colors">Services</Link>
-              <Link to="/contact" className="text-foreground hover:text-primary transition-colors">Contact</Link>
-              <Link to="/login">
-                <Button variant="outline">Login</Button>
-              </Link>
-              <Link to="/register">
-                <Button className="gradient-primary border-0 text-primary-foreground">Get Started</Button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <StaticNavbar />
 
       {/* Hero Section */}
       <section className="gradient-hero text-primary-foreground py-20">
